@@ -1,8 +1,6 @@
 one two three
-two four five
-three six seven
-four
-five eight
-six
-seven
-eight
+two one four five
+three one five
+four three two
+five
+six five

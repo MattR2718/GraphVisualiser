@@ -29,13 +29,11 @@ void setOptions(int& type, std::string& root){
     std::cout<<"2) Binary Tree\n";
     std::cin>>type;
     std::cout<<"-------------------------------------\n";
-    /*
     if (type == 2){
         std::cout<<"ENTER ROOT NODE: ";
         std::cin>>root;
         std::cout<<"-------------------------------------\n";
     }
-    */
 }
 
 auto getAdjacencyList(const std::string filename){
@@ -81,9 +79,9 @@ int main(){
     std::map<std::string, std::vector<std::string>> adjacencyList = getAdjacencyList(fName);
     printAdjacencyList(adjacencyList);
 
-    int type = 1;
+    int type;
     std::string root;
-    //setOptions(type, root);
+    setOptions(type, root);
 
     const int WIDTH = 800;
     const int HEIGHT = 800;
@@ -106,11 +104,12 @@ int main(){
             }
             break;
             case(2): {
-                treeDraw(window, adjacencyList);
+                //treeDraw(window, adjacencyList);
+                errorDisplay(window, "ERROR\nTREE NOT\nWORKING");
             }
             break;
             default: {
-                errorDisplay(window);
+                errorDisplay(window, "ERROR WITH \nCHOICE OF \nVISUALISATION");
             }
         }
 
@@ -131,5 +130,14 @@ five
 six five
 
 
+Test Tree
 
+one two three
+two four five
+three six seven
+four
+five eight
+six
+seven
+eight
 */
