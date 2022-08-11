@@ -8,5 +8,5 @@
     - Elements are a vector of strings<br>
 - In visualisation:
     - Arrow represented as WHITE ----- RED
-    -                      -------------\> 
+    -                      \-\-\-\-\-\-\-\-\-\-\-\-\-\> 
     
