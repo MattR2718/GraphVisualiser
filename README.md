@@ -8,5 +8,5 @@ In program:
  - Elements are a vector of strings
 In visualisation:
     - Arrow represented as WHITE ----- RED
-    -                      ------------->
+    -//                      ------------->
     
