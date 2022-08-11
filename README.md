@@ -9,3 +9,5 @@
 - In visualisation:
     - Arrow represented as WHITE &rarr; RED
    
+## Images
+![Graph](https://github.com/MattR2718/GraphVisualiser/blob/master/img/graph.PNG)
