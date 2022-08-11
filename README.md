@@ -7,6 +7,5 @@
     - Key is a string
     - Elements are a vector of strings<br>
 - In visualisation:
-    - Arrow represented as WHITE ----- RED
-    - &rarr;
-    
+    - Arrow represented as WHITE &rarr; RED
+   
